@@ -222,6 +222,8 @@ _colors = {
 
 _units_weights = {
     'em': 10,
+    'ex': 10,
+    'rem': 10,
     'mm': 10,
     'ms': 10,
     'hz': 10,
@@ -230,6 +232,8 @@ _units_weights = {
 _conv = {
     'size': {
         'em': 13.0,
+        'ex': 13.0,
+        'rem': 13.0,
         'px': 1.0
     },
     'length': {
@@ -253,9 +257,9 @@ _conv = {
 }
 
 # units and conversions
-_units = ['em', 'ex', 'px', 'cm', 'mm', 'in', 'pt', 'pc', 'deg', 'rad'
+_units = ['em', 'ex', 'rem', 'px', 'cm', 'mm', 'in', 'pt', 'pc', 'deg', 'rad'
           'grad', 'ms', 's', 'hz', 'khz', '%']
-_zero_units = ['em', 'ex', 'px', 'cm', 'mm', 'in', 'pt', 'pc']  # units that can be zeroed
+_zero_units = ['em', 'ex', 'rem', 'px', 'cm', 'mm', 'in', 'pt', 'pc']  # units that can be zeroed
 _conv_type = {}
 _conv_factor = {}
 for t, m in _conv.items():
