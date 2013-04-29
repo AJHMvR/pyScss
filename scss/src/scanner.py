@@ -43,7 +43,7 @@ DEBUG = False
 ################################################################################
 # Helpers
 
-_units = ['em', 'ex', 'px', 'cm', 'mm', 'in', 'pt', 'pc', 'deg', 'rad'
+_units = ['em', 'ex', 'rem', 'px', 'cm', 'mm', 'in', 'pt', 'pc', 'deg', 'rad'
           'grad', 'ms', 's', 'hz', 'khz', '%']
 PATTERNS = [
         ('":"', ':'),
